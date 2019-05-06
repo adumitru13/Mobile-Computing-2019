@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera 📸" />
+        <item
+            android:id="@+id/nav_accelerometer"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Movement/Accelerometer 🏃‍" />
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map_black"
+            android:title="Google Maps 🌎" />
+        <item
+            android:id="@+id/nav_wifi_notification"
+            android:icon="@drawable/ic_wifi_notification"
+            android:title="Wifi Notification 📡" />
+
+        <item
+            android:id="@+id/nav_wather"
+            android:icon="@drawable/ic_web_service"
+            android:title="Weather" />
+
+
+
+
+    </group>
+
+</menu>
+
+
